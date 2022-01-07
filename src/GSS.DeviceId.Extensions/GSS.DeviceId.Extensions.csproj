@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net35;net40;netstandard2.0;net5.0;net6.0</TargetFrameworks>
+    <LangVersion>latest</LangVersion>
+    <SignAssembly>True</SignAssembly>
+    <PackageProjectUrl>https://github.com/tddPublic/GSS.DeviceId.Extensions</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/tddPublic/GSS.DeviceId.Extensions</RepositoryUrl>
+    <AssemblyOriginatorKeyFile>GSS.DeviceId.Extensions.snk</AssemblyOriginatorKeyFile>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DeviceId" Version="6.0.0" />
+  </ItemGroup>
+
+</Project>
